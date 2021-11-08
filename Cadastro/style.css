@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    filter: none;
+}
+body {
+    background-position: center;
+    background-color: rgb(175, 175, 175);
+    background-size: cover;
+    font-size: sans-serif;
+    font-family: verdana;
+    margin-top: 40px;
+}
+.formulario {
+    width: 800px;
+    background-color: rgb(43, 43, 228);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 0 1em rgb(202, 139, 139)
+}
+.conteudo {
+    background-color: 0, 0, 0, 6;
+    width: 800px;
+    margin: auto;
+}
+form {
+    padding: 10px;
+    background-color: grey 1,0;
+}
+#nome {
+    width: 100%;
+    height: 100px;
+}
+.nome {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.primeironome {
+    position: relative;
+    left: 240px;
+    top: -37px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.primeirolabel {
+    position: relative;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 5px;
+    top: -5px;
+}
+.sobrenome {
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: black;
+}
+
+.sobrenomelabel {
+    position: relative;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+    right: 30px;
+    top: -5px;
+}
+.empresa {
+    position: relative;
+    left: 230px;
+    top: -30px;
+    line-height: 30px;
+    width: 460px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+.email {
+    position: relative;
+    left: 230px;
+    top: -30px;
+    line-height: 30px;
+    width: 460px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+.codigo {
+    position: relative;
+    left: 230px;
+    top: -80px;
+    line-height: 30px;
+    width: 50px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+.namber {
+    position: relative;
+    left: 230px;
+    top: -80px;
+    line-height: 30px;
+    width: 312px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+.numero {
+    position: relative;
+    left: 480px;
+    top: -30px;
+    line-height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+.codigo-area {
+   position: relative;
+   color: black;
+   text-transform: capitalize;
+   font-size: 16px;
+   left: 140px;
+   top: -50px; 
+}
+.numero-telefone {
+    position: relative;
+   color: black;
+   text-transform: capitalize;
+   font-size: 16px;
+   right: 120px;
+   top: -50px; 
+}
+.opcoes {
+    position: relative;
+    left: 200px;
+    top: -30px;
+    line-height: 40px;
+    width: 515px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+.opcoes option {
+    font-size: 20px;
+}
+#nivel {
+    margin-left: 25px;
+    color: black;
+    font-size: 18px;
+}
+h2.nivel {
+    margin-left: 20px;
+}
+.radio {
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    color: black;
+}
+.radio input {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+}
+button {
+    background-color: #38af9f;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #266473;
+    padding: 14px 110px;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.25px;
+}
+button:hover {
+    background-color: blue;
+}
+
+
